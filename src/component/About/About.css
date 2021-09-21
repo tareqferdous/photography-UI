@@ -1,0 +1,80 @@
+.about-section{
+	padding-top: 100px;
+    height: 75vh;
+}
+
+.content-section{
+	float: right;
+	width: 55%;
+    margin-top: 50px;
+}
+.image-section{
+	float: left;
+	width: 40%;
+}
+.image-section img{
+    margin-left: 20px;
+    width: 58px;
+    height: 230px;
+}
+
+.content-section .title{
+	text-transform: uppercase;
+	font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.content-section .content p{
+	margin-top: 10px;
+	font-size: 18px;
+	line-height: 1.7;
+}
+
+.about-img-2{
+    margin-top: 52px;
+}
+.about-img-3{
+    margin-top: 80px;
+}
+@media screen and (max-width: 768px){
+	.container{
+	width: 80%;
+	display: block;
+	margin:auto;
+	padding-top:50px;
+}
+.content-section{
+	float:none;
+	width:100%;
+	display: block;
+	margin:auto;
+}
+.image-section{
+	float:none;
+	width:100%;	
+}
+.image-section img{
+	display: block;
+	margin:auto;
+    width: 50%;
+    margin-bottom: 20px;
+    height: 200px;
+}
+.menu{
+    display: none;
+}
+.content-section .title{
+	text-align: center;
+	font-size: 19px;
+}
+.content-section .content .button{
+	text-align: center;
+}
+.content-section .content .button a{
+	padding:9px 30px;
+}
+.content-section .social{
+	text-align: center;
+}
+
+}
